@@ -29,6 +29,7 @@ body {
     background: #1F2937;  
     justify-content: space-between;
     padding: 5% 15%;
+    padding-bottom: 208px;
     min-height: 200px;
     gap: 10%;
 }
@@ -64,6 +65,10 @@ button.sign-up {
     border-radius: 8px; 
     color: #e5e7eb;
     font-weight: 700;
+}
+
+button.sign-up:hover{
+    background-color: #486fad;
 }
 
 .section1 {
@@ -152,11 +157,15 @@ button.sign-up2{
     font-size: 18px;
     background-color: #3882f6;
     margin-left:auto;
-    padding: 8px 36px;
+    /* padding: 8px 36px; */
     border: 3px solid #e5e7eb;
     border-radius: 8px; 
     color: #e5e7eb;
     font-weight: 700;
+}
+
+button.sign-up2:hover{
+    background-color: #4678c9;
 }
 
 .footer{
@@ -177,8 +186,15 @@ ul {
     align-items: center;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero a, 
+.newsletter a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 8px 36px;
 }
