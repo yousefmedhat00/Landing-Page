@@ -159,6 +159,16 @@ button.sign-up2{
     font-weight: 700;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    margin: 0;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
